@@ -1,4 +1,4 @@
-{% set version = "2.0.7" %}
+{% set version = "2.0.8" %}
 
 package:
   name: libxfont2
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://www.x.org/releases/individual/lib/libXfont2-{{ version }}.tar.xz
-  sha256: 8b7b82fdeba48769b69433e8e3fbb984a5f6bf368b0d5f47abeec49de3e58efb
+  sha256: f556c0e1093a4e6911cc90bc4b106d201902ee187fd74af206ff162f7e6a24d5
 
 build:
   number: 0
